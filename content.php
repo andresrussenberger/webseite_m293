@@ -24,7 +24,7 @@
   <h2>Lokales Video</h2>
 
   <video width="400" controls>
-    <source src="media/video/coast-vid.mp4" type="video/mp4" />
+    <source src="media/video/schnee-landschaft.mp4" type="video/mp4" />
     Dein Browser unterstützt kein Video.
   </video>
 
