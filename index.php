@@ -2,9 +2,9 @@
 
     <main>
       <article id="Einleitung">
-        <h1>Inhalt noch zu definieren</h1>
-        <p>Irgend ein Text um Platz zu nutzen.<strong> Aussagekräftiger Text</strong
-        > .Nochmals Buchstaben um in irgend einer Weise Platz zu gewinnen.</p>
+        <h1>Vorzeige Webseite</h1>
+        <p>Diese Webseite wurde von mir erstellt um den Anforderungen vom dem Modul 293 and der BBZBL, gerecht zu werden und meine <strong>Kompetenzen</strong zu belegen.
+        > Ich hoffe das diese Webseite Ihnen gefällt.</p>
       </article>
     </main>
     <footer class="site-footer">

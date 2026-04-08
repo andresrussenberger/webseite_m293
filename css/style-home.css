@@ -110,17 +110,23 @@ nav a:hover {
 
 main {
   grid-area: main;
-  max-width: 1000px;
-  width: 100%;
+  display: flex;
   margin: 0 auto;
-  padding: 3rem 2rem;
+  max-width: 100%;
+  align-content: center;
+  justify-content: center;
+
+  /* main is am asrsch, display flex zu block und trotzdem EInleitung zentrieren */
+}
+
+#Einleitung {
+  width: 50%;
 }
 
 article,
 section {
   background-color: var(--white);
   padding: 2rem;
-  margin-bottom: 2rem;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
 }
@@ -140,8 +146,8 @@ article p,
 section p {
   color: var(--text-light);
   margin-bottom: 1rem;
+  font-size: 1.8rem;
 }
-
 
 img {
   max-width: 100%;
@@ -161,6 +167,9 @@ video {
 iframe {
   border-radius: var(--radius);
   margin: 1rem 0;
+}
+
+form {
 }
 
 footer {
