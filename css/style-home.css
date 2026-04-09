@@ -23,7 +23,7 @@ body {
   grid-template-rows: auto auto auto;
   grid-template-areas:
     "header empty nav"
-    "main main main"
+    "left main right"
     "footer footer footer";
   gap: 10px;
 }
@@ -38,7 +38,6 @@ header {
 
   & #link-img {
     display: flex;
-    align-items: center;
 
     & a {
       display: inline-block;
@@ -108,9 +107,19 @@ nav a:hover {
   border-bottom-color: var(--accent);
 }
 
+.left {
+  grid-area: left;
+  background-color: var(--white);
+}
+
+.right {
+  grid-area: right;
+  background-color: var(--white);
+}
+
 main {
   grid-area: main;
-  display: flex;
+  display: block;
   margin: 0 auto;
   max-width: 100%;
   align-content: center;
@@ -120,7 +129,7 @@ main {
 }
 
 #Einleitung {
-  width: 50%;
+  width: 100%;
 }
 
 article,
@@ -159,7 +168,7 @@ img {
 audio,
 video {
   width: 100%;
-  max-width: 100%;
+  max-height: 50vh;
   margin: 1rem 0;
   border-radius: var(--radius);
 }
@@ -190,14 +199,26 @@ footer p {
 @media (max-width: 768px) {
   body {
     grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "nav"
+      "left"
+      "main"
+      "right"
+      "footer";
+  }
+
+  .empty {
+    display: none;
   }
 
   header {
     padding: 1.5rem;
+    justify-content: center;
   }
 
   nav ul {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   nav a {

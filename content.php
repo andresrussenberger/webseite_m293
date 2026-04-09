@@ -1,4 +1,7 @@
 <?php include "top.php"; ?>
+
+<div class='left'></div>
+
 <main>
 
 <section>
@@ -27,8 +30,10 @@
     <source src="media/video/schnee-landschaft.mp4" type="video/mp4" />
     Dein Browser unterstützt kein Video.
   </video>
+</section>
 
-  <br /><br />
+<section>
+  <h2>Eingebettetes Video</h2>
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/9f1xUcB9Q0E?si=WOgckz-P-7GqpInW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </section>
@@ -54,12 +59,12 @@
 </section>
 
 <nav>
-  <h2>Navigation</h2>
 
-
-  <p>Externer Link: <a href="https://www.google.com" target="_blank">Google</a></p>
+  <h2>Externer Link: <a href="https://www.google.com" target="_blank">Google</a></h2>
 </nav>
 </main>
+
+<div class='right'></div>
 
     <footer class="site-footer">
       <p>&copy; 2026 @Andres Russenberger. Alle Rechte vorbehalten.</p>
