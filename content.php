@@ -43,14 +43,14 @@
 <section>
   <h2>Karte</h2>
 
-  <iframe
-    src="https://www.google.com/maps?q=Basel&output=embed"
-    width="400"
-    height="300"
-    style="border:0;"
-    allowfullscreen=""
-    loading="lazy">
-  </iframe>
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.google.com/maps?q=Basel&output=embed"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy">
+    </iframe>
+  </div>
 </section>
 
 <section>

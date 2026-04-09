@@ -1,6 +1,7 @@
 <?php include "top.php"; ?>
 
 <main>
+  <div class="form-wrapper">
     <form action="https://gibm.becknet.ch/formular/formular.php" method="POST" class="container my-5">
   <fieldset class="border p-4 rounded-3 bg-light">
     <legend class="mb-4 h4">Bei mir bewerben</legend>
@@ -100,6 +101,7 @@
     <button type="submit" class="btn btn-primary w-100">Bewerbung absenden</button>
   </fieldset>
 </form>
+  </div>
     </main>
 
     <footer class="site-footer">
