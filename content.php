@@ -14,17 +14,17 @@
   <h2>Bilder</h2>
 
   <!-- Lokales Bild -->
-  <img src="media/images/coast-img.avif" alt="Küste" width="200" />
+  <img src="media/images/coast-img.avif" alt="Küste" width="200">
 
   <!-- Externes Bild -->
-  <img src="https://images.unsplash.com/photo-1773394494764-ca67f5b978cc?q=80&w=685&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Flugzeugfenster" width="200"/>
+  <img src="https://images.unsplash.com/photo-1773394494764-ca67f5b978cc?q=80&w=685&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Flugzeugfenster" width="200">
 </section>
 
 <section>
   <h2>Lokales Jazz Audio</h2>
 
   <audio controls>
-    <source src="media/audio/backgroundmusicforvideos-jazz-background-music-338663.mp3" type="audio/mpeg" />
+    <source src="media/audio/backgroundmusicforvideos-jazz-background-music-338663.mp3" type="audio/mpeg">
     Dein Browser unterstützt kein Audio.
   </audio>
 </section>
@@ -33,7 +33,7 @@
   <h2>Lokales Video</h2>
 
   <video width="400" controls>
-    <source src="media/video/schnee-landschaft.mp4" type="video/mp4" />
+    <source src="media/video/schnee-landschaft.mp4" type="video/mp4">
     Dein Browser unterstützt kein Video.
   </video>
 </section>
@@ -42,7 +42,7 @@
   <h2>Eingebettetes Video</h2>
 
   <div class="video-wrapper">
-    <iframe src="https://www.youtube.com/embed/9f1xUcB9Q0E?si=WOgckz-P-7GqpInW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/9f1xUcB9Q0E?si=WOgckz-P-7GqpInW" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
 </section>
 

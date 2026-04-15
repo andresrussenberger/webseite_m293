@@ -1,27 +1,27 @@
 <!doctype html>
 <html lang="de">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vorzeige Webseite</title>
     <meta
       name="description"
       content="Dies ist eine Webseite die ich vorzeige um eine Note wie ein Löwe zu bekommen."
-    />
-    <meta name="keywords" content="HTML, CSS und JavaScript" />
-    <meta name="author" content="Andres Russenberger" />
-    <link rel="icon" type="image/x-icon" href="media/images/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="32x32" href="media/images/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="media/images/favicon-16x16.png" />
+    >
+    <meta name="keywords" content="HTML, CSS und JavaScript">
+    <meta name="author" content="Andres Russenberger">
+    <link rel="icon" type="image/x-icon" href="media/images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="media/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="media/images/favicon-16x16.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style-home.css" />
+    <link rel="stylesheet" href="css/style-home.css">
   </head>
 
   <body>
     <header>
       <div id="link-img">
         <a href="index.php">
-          <img id="php-img" src="media/images/php-img.png" alt="PHP Logo" />
+          <img id="php-img" src="media/images/php-img.png" alt="PHP Logo">
         </a>
       </div>
     </header>
