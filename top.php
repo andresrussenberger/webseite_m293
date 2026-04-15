@@ -32,5 +32,3 @@
         <li><a href="contact.php">Kontakt</a></li>
       </ul>
     </nav>
-  </body>
-</html>
