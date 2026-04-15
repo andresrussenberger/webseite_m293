@@ -21,7 +21,7 @@
     <header>
       <div id="link-img">
         <a href="index.php">
-          <img id="php-img" src="media/images/php-img.png" alt="PHP Image" />
+          <img id="php-img" src="media/images/php-img.png" alt="PHP Logo" />
         </a>
       </div>
     </header>
