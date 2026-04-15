@@ -1,6 +1,11 @@
 <?php include "top.php"; ?>
 
 <main>
+
+<nav class='nav1'>
+<h1>Formular</h1>
+</nav>
+
   <div class="form-wrapper">
     <form action="https://gibm.becknet.ch/formular/formular.php" method="POST" class="container my-5">
   <fieldset class="border p-4 rounded-3 bg-light">
@@ -51,8 +56,8 @@
       </select>
     </div>
 
-    <div class="mb-3">
-      <label class="form-label">Geschlecht:</label><br />
+    <fieldset class="mb-3 border-0 p-0">
+      <legend class="form-label">Geschlecht:</legend>
       <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" id="male" name="gender" value="männlich" required />
         <label class="form-check-label" for="male">Männlich</label>
@@ -65,10 +70,10 @@
         <input class="form-check-input" type="radio" id="other" name="gender" value="divers" />
         <label class="form-check-label" for="other">Divers</label>
       </div>
-    </div>
+    </fieldset>
 
-    <div class="mb-3">
-      <label class="form-label">Interessen:</label><br />
+    <fieldset class="mb-3 border-0 p-0">
+      <legend class="form-label">Interessen:</legend>
       <div class="form-check form-check-inline">
         <input class="form-check-input" type="checkbox" name="interests" value="programmieren" id="int-programmieren" />
         <label class="form-check-label" for="int-programmieren">Programmieren</label>
@@ -81,7 +86,7 @@
         <input class="form-check-input" type="checkbox" name="interests" value="netzwerke" id="int-netzwerke" />
         <label class="form-check-label" for="int-netzwerke">Netzwerke</label>
       </div>
-    </div>
+    </fieldset>
 
     <div class="mb-3">
       <label for="message" class="form-label">Motivationsschreiben:</label>

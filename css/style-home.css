@@ -72,6 +72,10 @@ header {
   background-color: var(--primary);
 }
 
+.nav1 {
+  border-radius: var(--radius);
+}
+
 nav {
   grid-area: nav;
   background-color: var(--primary);
@@ -79,6 +83,10 @@ nav {
 
   display: flex;
   justify-content: center;
+}
+
+nav h1 {
+  color: var(--white);
 }
 
 nav ul {
@@ -153,10 +161,17 @@ section {
 }
 
 article h1,
+section h1,
 section h2 {
   color: var(--primary);
   margin-bottom: 1.5rem;
   font-size: 2.8rem;
+}
+
+section h1 {
+  display: flex;
+  text-align: center;
+  align-self: center
 }
 
 article h1 {

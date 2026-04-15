@@ -1,8 +1,14 @@
 <?php include "top.php"; ?>
 
+
 <div class='left'></div>
 
+
 <main>
+
+<nav class='nav1'>
+<h1>Meisten Kompetenzen</h1>
+</nav>
 
 <section>
   <h2>Bilder</h2>
